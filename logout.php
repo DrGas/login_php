@@ -1,10 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+<?php 
+session_start();
+//ending the session
+session_destroy();
 
-<body>
-</body>
-</html>
+header("Location: index.php");
+?>
+
