@@ -1,11 +1,12 @@
 <?php 
+session_start();
 
 include 'dbh.php';
 
 $uid = $_POST['uid'];
 $pwd = $_POST['pwd'];
 
-//SELECT statement, because it needs to SELECT from already existing data from database
+//SELECT * FROM statement, because it needs to SELECT from already existing data from database
 $sql = "SELECT * FROM user WHERE uid='$uid' AND pwd='$pwd'";
 $result =mysqli_query($conn, $sql);
 
@@ -16,4 +17,5 @@ if (!$row = mysqli_fetch_assoc($result)){
 		$_SESSION['id'] = $row['id'];
 		}
 
+header("Location: index.php");
 ?>
