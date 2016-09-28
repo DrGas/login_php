@@ -16,11 +16,12 @@
     		<li><a href="index.php">HOME</li>
             <?php 
 				//LOGIN FORM from front page, needs to change "" to '' because it is PHP now
-	<form action="login.php" method="POST">
-	 <input type="text" name="uid" placeholder="Username"><br>
-    <input type="password" name="pwd" placeholder="Password"><br>
-    <button type="submit">LOGIN</button>
-	</form>
+	//it also needs to be echoed - to be visible	
+	echo "<form action='login.php' method='POST'>
+	 <input type='text' name='uid' placeholder='Username'><br>
+    <input type='password' name='pwd' placeholder='Password'><br>
+    <button type='submit'>LOGIN</button>
+	</form>";
 			?>
             <li><a href="signup-page.php">SIGN UP</li>    
         </ul>
