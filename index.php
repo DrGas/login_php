@@ -1,5 +1,5 @@
 <?php 
-include 'header.php'
+include 'header.php';
 ?>
 <!--LOGIN FORM-->
 <form action="login.php" method="POST">
