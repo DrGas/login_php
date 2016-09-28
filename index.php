@@ -15,6 +15,12 @@
     <button type="submit">LOGIN</button>
 </form>
 
+<?php 
+	if (isset($_SESSION['id'])) {
+		echo $_SESSION['id'];
+		}
+?>
+
 <br><br><br>
 <!--SIGN UP FORM-->
 <body>
