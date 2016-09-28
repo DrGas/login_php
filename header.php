@@ -13,7 +13,7 @@
 <header>
 	<nav>
     	<ul>
-    		<li><a href="index.php">HOME</li>
+    		<li><a href="index.php">HOME</a></li>
             <?php 
 				//LOGIN FORM from front page, needs to change "" to '' because it is PHP now
 	//it also needs to be echoed - to be visible
@@ -24,7 +24,7 @@
     <button type='submit'>LOGIN</button>
 	</form>";
 			?>
-            <li><a href="signup-page.php">SIGN UP</li>    
+            <li><a href="signup-page.php">SIGN UP</a></li>    
         </ul>
     </nav>
 </header>
