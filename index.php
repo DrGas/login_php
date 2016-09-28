@@ -1,12 +1,6 @@
 <?php 
 include 'header.php';
 ?>
-<!--LOGIN FORM-->
-<form action="login.php" method="POST">
-	 <input type="text" name="uid" placeholder="Username"><br>
-    <input type="password" name="pwd" placeholder="Password"><br>
-    <button type="submit">LOGIN</button>
-</form>
 
 <!--SESSION echoing session ID to the frontpage-->
 <?php 
