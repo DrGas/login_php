@@ -6,8 +6,8 @@
 </head>
 
 <body>
-<form action="signup.php method="POST">
-    <input type="text" name="fist" placeholder="Firstname"><br>
+<form action="signup.php" method="POST">
+    <input type="text" name="first" placeholder="Firstname"><br>
     <input type="text" name="last" placeholder="Lastname"><br>
     <input type="text" name="uid" placeholder="Username"><br>
     <input type="password" name="pwd" placeholder="Password"><br>
