@@ -10,3 +10,11 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head> 
 <body>
+<header>
+	<nav>
+    	<ul>
+    		<li><a href="">HOME</li>
+            <li><a href="">SIGN UP</li>    
+        </ul>
+    </nav>
+</header>
