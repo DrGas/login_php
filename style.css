@@ -10,7 +10,7 @@
 header {
 	width: 100%;
 	height: 60px;
-	background-color: #A8A9AB;
+	background-color: grey;
 	}
 	
 nav ul {
@@ -31,6 +31,10 @@ nav ul li a {
 	color: white;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	border: 2px solid white;
+	padding: 5px;
+	border-radius: 4px;
+	
 	
 	}
 		
@@ -41,19 +45,27 @@ nav ul form {
 nav ul form input {
 	float: left;
 	font-size:14px;
-	border: none;
+	border: 2px solid white;
 	margin-right: 6px;
+	padding: 2px;
+	
+	
 	
 	}
+	
+	/*login boxes username/password*/
 	nav ul form button {
 	float: left;
-	border: none;
 	margin-right: 20px;
-	background-color: #fff;
-	color: #9A9A9A;
+	margin-left: 10px;
+	background-color: #45668E;
+	color: white;
 	font-size: 16px;
 	cursor:pointer;
-	padding: 2px;
+	padding: 5px;
+	border: 2px solid white;
+	border-radius: 4px;
+	
 		
 	}
 	
@@ -64,6 +76,34 @@ nav ul form input {
 	
 	
 	}
+	
+	/*sign up form*/
+	
+	#signupform {
+		margin: 0 auto;
+		background: grey;
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		padding: 20px;
+		font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		
+		
+	
+	}
+	 #sigupbutton {
+		 background: #45668E; 
+		 padding: 10px 40px; 
+		 margin: 10px 15px;
+		 color: white;
+		 border: 2px solid white;
+		
+		  
+		 
+		 }
 	
 	
 

@@ -16,7 +16,7 @@
     		<li><a href="index.php">HOME</a></li>
             <?php 
 			if (isset($_SESSION['id'])) {
-				echo "//<!--LOG OUT, we don't need to put method because we just need to run this one file -->
+				echo "//<!--LOG OUT, we don't need to put method because we just need to run this one file
 					<form action='logout.php'>
 					<button>LOG OUT</button>
 						</form>";
