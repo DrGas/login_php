@@ -19,8 +19,5 @@ include 'header.php';
 ?>
 
 <br><br><br>
-<!--SIGN UP FORM-->
-
-
 
 </html>
