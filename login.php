@@ -11,26 +11,29 @@ $sql = "SELECT * FROM user WHERE uid='$uid' ";
 $result =mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 $hash_pwd = $row['pwd'];
-$dehash = password_verify($pwd, $hash_pwd);
+$password_valid = password_verify($pwd, $hash_pwd); //password_match
 
-if ($dehash == 0) {
+if ($password_valid) {
+	/*CERATING SESSION*/
+		$_SESSION['id'] = $row['id'];
+		header("Location: secret-page.php");	
+	
 	
 	} else {
-		
+		echo "<p>Your username or password is incorrect</p>";
 	
-	//SELECT * FROM statement, because it needs to SELECT from already existing data from database
+/*	SELECT * FROM statement, because it needs to SELECT from already existing data from database*/
 	
-	$sql = "SELECT * FROM user WHERE uid='$uid' AND pwd='$hash_pwd'";
+	/*$sql = "SELECT * FROM user WHERE uid='$uid' AND pwd='$hash_pwd'";
 	$result =mysqli_query($conn, $sql);
 	
 	if (!$row = mysqli_fetch_assoc($result)){
-		echo "<p>Your username or password is incorrect</p>";
+		
 		} else {
-			//CERATING SESSION
-			$_SESSION['id'] = $row['id'];
-			}
+			
+		}
 			
 	
-	header("Location: secret-page.php");
+	*/
 	}
 ?>

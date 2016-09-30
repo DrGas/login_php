@@ -1,24 +1,22 @@
-<?php 
+<?php
 
+/*
 $conn = mysqli_connect("localhost", "root", "", "login");
 
 if (!$conn) {
 	die("Connection failed:".mysqli_connect_error());
-	}
+	}*/
 	
 	
-/* 
-<?php 
-const DB_HOST = 'magdalenadrgas.dk.mysql'; -->IT IS ALL ON ONE.COM
-const DB_USER = ...;
-const DB_PASS = ...;
-const DB_NAME = ...;
+const DB_HOST = 'magdalenadrgas.dk.mysql';
+const DB_USER = 'magdalenadrgas_';
+const DB_PASS = 'Sr6awUJb';
+const DB_NAME = 'magdalenadrgas_';
 
-$conn = mysqli_connect(all the data above);
+$conn = mysqli_connect('magdalenadrgas.dk.mysql','magdalenadrgas_', 'Sr6awUJb','magdalenadrgas_'  );
+
 ?>
 
 
-*/	
-	
-?>
+
 

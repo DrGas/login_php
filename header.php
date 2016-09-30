@@ -34,6 +34,7 @@
 	//it also needs to be echoed - to be visible
 	//delete all the breaks between uid and pwd - it makes it easier to style it 	
 				?>
+            
             <li><a href="signup-page.php">SIGN UP</a></li>    
         </ul>
     </nav>
